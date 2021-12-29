@@ -1,3 +1,5 @@
 import './Button.css'
 
-export default props => <button className='button'>{props.label}</button>
+const Button = props => <button className='button'>{props.label}</button>
+
+export default Button
