@@ -3,7 +3,6 @@ import './Calculator.css'
 
 import Display from '../components/Display'
 import Button from '../components/Button'
-import { clear } from '@testing-library/user-event/dist/clear'
 
 export default class Calculator extends Component {
   constructor(props) {
