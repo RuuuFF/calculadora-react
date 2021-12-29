@@ -8,7 +8,7 @@ export default class Calculator extends Component {
   render() {
     return (
       <div className='calculator'>
-        <Display value={10000000000000000000} />
+        <Display value={100} />
         <Button label='AC' />
         <Button label='/' />
         <Button label='7' />
