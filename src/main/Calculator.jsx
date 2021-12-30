@@ -48,6 +48,8 @@ export default class Calculator extends Component {
         case '+':
           values[0] = values[0] + values[1]
           break;
+        default:
+          break
       }
 
       values[1] = 0
